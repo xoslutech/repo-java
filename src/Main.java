@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int nb = (int) (Math.random()*100+200);
+        System.out.println(isPremier(nb));
     }
 
     public static boolean isPremier(int n){
